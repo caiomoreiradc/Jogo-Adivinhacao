@@ -1,0 +1,159 @@
+body
+{
+    min-height: 100vh;
+    margin: 0;
+
+    background: rgb(19,5,69);
+    background: linear-gradient(90deg, rgba(19,5,69,1) 0%, rgba(121,9,56,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1
+{
+    font-size: 25px;
+}
+h2
+{
+    font-size: 20px;
+}
+
+.cabecalho
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+    color: white;
+}
+
+.controles 
+{
+    display: flex;
+    gap: 5px;
+
+    width: 100%;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteudo
+{
+    display:  grid;
+
+    gap: 5px;
+
+    margin-top: 40px;
+}
+
+.textbox-chute
+{
+    border: none;
+    border-radius: 1vmax;
+    height: 100%;
+
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 40px;
+
+
+}
+
+.btn-adivinhar
+{
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+
+.btn-adivinhar:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn-retry
+{
+	box-shadow: 0px 10px 14px -7px #732727;
+	background:linear-gradient(to bottom, #b35959 5%, #b35252 100%);
+	background-color:#b35959;
+	border-radius:4px;
+	border:1px solid #8f2929;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8a3d3d;
+}
+
+.btn-retry:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.notificacao-acerto
+{
+    text-align: center;
+
+    color: green;
+
+    border: 1px solid green;
+    border-radius: 15px;
+
+    padding: 10px;
+    max-width: 400px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+
+
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notificacao-erro
+{
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+
+    padding: 10px;
+    max-width: 400px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+
+
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
